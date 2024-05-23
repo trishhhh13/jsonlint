@@ -1,0 +1,57 @@
+.App {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vw;
+  }
+
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: flex-start;
+}
+
+  textarea {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #e86f02;
+    border-radius: 8px;
+  }
+
+  .result-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .error-container {
+    margin-left: 12px;
+  }
+
+  .positive-result {
+    color: green;
+  }
+  .negative-result {
+    color: #DD2037;
+  }
+
+  .buttons {
+    display: flex
+  }
